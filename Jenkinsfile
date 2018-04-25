@@ -3,7 +3,8 @@ pipeline {
   stages {
     stage('') {
       steps {
-        sh 'echo \'hello\''
+        sh 'cat /etc/profile'
+        sh 'echo "finish"'
       }
     }
   }
